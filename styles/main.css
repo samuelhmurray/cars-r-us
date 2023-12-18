@@ -1,0 +1,30 @@
+.choices{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.order{
+    margin:10px;
+}
+
+.customOrders{
+    padding: 10px;
+}
+
+.choices__paint{
+    border: dashed  2px;
+    padding: 50px;
+    }
+.choices__interior{
+    border: dashed  2px;
+    padding: 50px;
+    }
+.choices__wheel{
+    border: dashed  2px;
+    padding: 50px;
+    }
+.choices__technology{
+    border: dashed  2px;
+    padding: 50px;
+    }

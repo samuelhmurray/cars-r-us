@@ -43,7 +43,7 @@
       "price": 950
     }
   ],
-  "technology": [
+  "technologies": [
     {
       "id": 1,
       "name": "Basic Package",
@@ -108,6 +108,41 @@
       "technologyId": 3,
       "wheelId": 1,
       "id": 3
+    },
+    {
+      "interiorId": 3,
+      "paintId": 1,
+      "technologyId": 4,
+      "wheelId": 3,
+      "id": 4
+    },
+    {
+      "interiorId": 3,
+      "paintId": 1,
+      "technologyId": 2,
+      "wheelId": 3,
+      "id": 5
+    },
+    {
+      "interiorId": 2,
+      "paintId": 2,
+      "technologyId": 1,
+      "wheelId": 3,
+      "id": 6
+    },
+    {
+      "interiorId": 2,
+      "paintId": 1,
+      "technologyId": 3,
+      "wheelId": 1,
+      "id": 7
+    },
+    {
+      "interiorId": 3,
+      "paintId": 1,
+      "technologyId": 3,
+      "wheelId": 2,
+      "id": 8
     }
   ]
 }

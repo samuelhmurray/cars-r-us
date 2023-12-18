@@ -19,20 +19,20 @@ const render = async () => {
     <h1>Cars 'R Us: Personal Car Builder</h1>
 
      <article class="choices">
-        <section class="choices__paint options">
+        <section class="choices__paint">
         ${paintOptionsHTML}
 
         </section>
-        <section class="choices__interior options">
+        <section class="choices__interior">
         ${interiorOptionsHTML}
         </section>
     
     
-        <section class="choices__wheel options">
+        <section class="choices__wheel">
         ${wheelOptionsHTML}
         </section>
         
-        <section class="choices__technology options">
+        <section class="choices__technology">
         ${technologyOptionsHTML}
         </section>
     </article>
@@ -47,5 +47,7 @@ const render = async () => {
   `;
   container.innerHTML = allHTML;
 };
+
+document.addEventListener("newOrderCreated", render);
 
 render();

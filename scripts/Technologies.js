@@ -2,7 +2,7 @@ import { setTechChoice } from "./TransientState.js";
 
 export const TechnologyOptions = async () => {
   document.addEventListener("change", handleTechChoice);
-  const response = await fetch("http://localhost:8088/technology");
+  const response = await fetch("http://localhost:8088/technologies");
   const technologies = await response.json();
 
   let html = "<h2>Technologies</h2>";
